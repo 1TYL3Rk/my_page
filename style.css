@@ -24,11 +24,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 body {
@@ -97,6 +97,10 @@ body {
     font-size: 20px;
     display: flex;
     transition: 0.2s all;
+}
+
+.menu-container .nav.selected {
+    color: var(--main);
 }
 
 .menu-container .nav:hover {
@@ -218,6 +222,11 @@ p.bold {
         font-size: 20px;
         padding: 20px;
         border-radius: 25px;
+        .text {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
         i {
             margin-right: 1px;
         }
