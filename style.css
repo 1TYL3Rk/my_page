@@ -228,7 +228,8 @@ p.bold {
             align-items: center;
         }
         i {
-            margin-right: 1px;
+            margin-right: 5px;
+            margin-top: 2.5px;
         }
         img {
             margin-top: 10px;
