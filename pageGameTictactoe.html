@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AZT Web Pages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleTictactoe.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <div class="box bg-white">
+                <a class="nav" href="index.html">Main Page</a>
+                <a class="nav" href="pageProfile.html">Profile</a>
+                <a class="nav" href="pagePortfolio.html">Portfolio</a>
+                <a class="nav" href="pageUpdate.html">Update</a>
+                <a class="nav" href="pageGame.html">My Game</a>
+                <a class="nav" href="pageSecret.html">Secret ???</a>
+            </div>
+            <div class="prop"><span>Menu Selection Tic Tac Toe Game</span></div>
+        </div>
+        <!-- select box -->
+        <div class="select-box">
+            <header>Tic Tac Toe</header>
+            <div class="content">
+                <div class="title">Select which you want to be?</div>
+                <div class="options">
+                    <button class="playerX">Player (X)</button>
+                    <button class="playerO">Player (O)</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- playboard section -->
+        <div class="play-board">
+            <div class="details">
+                <div class="players">
+                    <span class="Xturn">X's Turn</span>
+                    <span class="Oturn">O's Turn</span>
+                    <div class="slider"></div>
+                </div>
+            </div>
+            <div class="play-area">
+                <section>
+                    <span class="box1"></span>
+                    <span class="box2"></span>
+                    <span class="box3"></span>
+                </section>
+                <section>
+                    <span class="box4"></span>
+                    <span class="box5"></span>
+                    <span class="box6"></span>
+                </section>
+                <section>
+                    <span class="box7"></span>
+                    <span class="box8"></span>
+                    <span class="box9"></span>
+                </section>
+            </div>
+        </div>
+
+        <!-- result box -->
+        <div class="result-box">
+            <div class="won-text"></div>
+            <div class="btn"><button>Replay</button></div>
+        </div>
+        <img class="wall" src="image/1342751.png" alt="wallpaper">
+    </div>
+    <script src="scriptTictactoe.js"></script>
+</body>
+
+</html>
