@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+:root {
+    /* --theme */
+    --bg-item: linear-gradient(238deg, #191919d7, #363636d7);
+    --main: rgb(90, 40, 150);
+    --color-theme: rgb(0, 65, 120);
+    --colorsub-theme: rgb(0, 140, 255);
+    --colorsub2-theme: rgba(20, 40, 50, 0.75);
+    --colorsub3-theme: rgb(0, 95, 160);
+    --colorcross-theme: rgb(165, 25, 25);
+    --colortext-theme: rgb(222, 222, 222);
+    /* -- */
+    --color-bg-container: rgba(15, 15, 15, 0.9);
+    --color-rpm: rgb(200, 200, 200);
+    --color-health: rgb(20, 110, 15);
+    --color-health2: rgb(105, 104, 35);
+    --color-health3: rgb(105, 35, 35);
+    --color-armor: rgb(35, 60, 85);
+    --color-stress: rgb(95, 15, 55);
+    --color-hunger: rgb(155, 85, 55);
+    --color-thirst: rgb(45, 80, 125);
+    --color-dirty: rgb(60, 40, 100);
+    --color-stamina: rgb(168, 124, 30);
+    --color-oxygen: rgb(40, 60, 75);
+    --color-bleeding: rgb(88, 8, 8);
+    --color-vehHealth: linear-gradient(to left, rgb(140, 25, 60), rgba(140, 25, 60, 0.1));
+    --color-vehFuel: linear-gradient(to right, rgb(110, 120, 30), rgba(110, 120, 30, 0.1));
+    /* -- color icon */
+    --color-iconOn: rgb(35, 105, 55);
+    --color-iconOff: rgb(105, 35, 35);
+}
+
+* {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: black;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(0.12em);
+    transition: 0.4s all;
+}
+
+.bg-white:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(0.5em);
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    border-radius: 0;
+    transition: 0.2s all;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 0;
+}
