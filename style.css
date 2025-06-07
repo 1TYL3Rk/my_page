@@ -76,7 +76,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 25em;
+        width: 22em;
         height: 1.5em;
         border-bottom: 0 solid transparent;
         border-top: 1.5em solid var(--main);
